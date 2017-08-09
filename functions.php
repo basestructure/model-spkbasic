@@ -117,7 +117,7 @@ add_theme_support( 'genesis-menus', array( 'primary' => __( 'Top Menu', 'setupba
 
 // Reposition the primary navigation menu.
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
-add_action( 'genesis_header_right', 'genesis_do_subnav', 5 );
+add_action( 'genesis_header_right', 'genesis_do_nav', 5 );
 
 // Reposition the secondary navigation menu.
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );

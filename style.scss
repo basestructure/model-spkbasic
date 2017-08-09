@@ -1,4 +1,4 @@
-/* MODEL | SETUP-BASIC | STYLE - 2017-08-03 */
+/* MODEL | SPK-BASIC | STYLE - 2017-08-08 3:51pm */
 
 // requires CodeKit
 // requires Framework "base-theme"
@@ -32,7 +32,7 @@
 @import 	"responsive/230_base/range";
 
 // -------------------------------------------------------------------- GUIDE | 2017-01-12
-@import 	"guide/230_base/base";
+//@import 	"guide/230_base/base";
 //@import 	"body/230_base/guide";
 //@import 	"structure/230_base/guide";
 //@import 	"header/230_base/guide";
@@ -184,11 +184,11 @@
 @import 	"entry/230_base/entryfooter";
 @import 	"entry/230_base/entryimage";
 
-// -------------------------------------------------------------------- LAYOUT | 2017-08-07
+// -------------------------------------------------------------------- LAYOUT | 2018-08-08
 			@import 	"layout/250_setupbasic/body";
 			@import 	"layout/250_setupbasic/structure";
 			//@import 	"layout/250_setupbasic/structure-override";
-			@import 	"layout/250_setupbasic/header";
+						@import 	"layout/250_spkbasic/header";
 			//@import 	"layout/250_setupbasic/header-override";
 			@import 	"layout/250_setupbasic/inner";
 			//@import 	"layout/250_setupbasic/inner-override";
@@ -197,9 +197,9 @@
 
 			// MENU
 			//@import 	"layout/230_model-basicsetup/menunav";
-			//@import 	"layout/230_model-basicsetup/menu";
+						@import 	"layout/230_spkbasic/menu";
 			//@import 	"layout/230_model-basicsetup/menusubmenu";
-			//@import 	"layout/230_model-basicsetup/menuitem";
+						@import 	"layout/230_spkbasic/menuitem";
 			//@import 	"layout/230_model-basicsetup/menutoggle";
 			//@import 	"layout/230_model-basicsetup/menudropdown";
 
@@ -226,7 +226,7 @@
 			@import 	"layout/250_setupbasic/width";
 
 			// GUIDE
-			@import 	"layout/250_guide/header";
+			//@import 	"layout/250_guide/header";
 			@import 	"layout/250_guide/inner";
 			@import 	"layout/250_guide/footer";
 

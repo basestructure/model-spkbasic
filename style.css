@@ -1,4 +1,4 @@
-/* MODEL | SETUP-BASIC | STYLE - 2017-08-03 */
+/* MODEL | SPK-BASIC | STYLE - 2017-08-08 3:51pm */
 /*
 	Theme Name: SPK-BASIC
 	Theme URI: http://model.basestructure.com/spk-basic
@@ -176,31 +176,6 @@ textarea {
 /* BASE_230 | VARIABLES | 250_BASE | BREAK - 2017-06-06 */
 /* BASE_230 | VARIABLES | 250_MODEL-BASICSETUP | WIDTH - 2017-06-06 */
 /* BASE_230 | RESPONSIVE | 230_BASE | RANGE - 2017-01-12 */
-/* BASE_230 | GUIDE | 230_BASE | SECTION - 2017-01-12 */
-h4.guide-text, .guide-text {
-  font-family: verdana, arial, serif;
-  font-size: 11px;
-  color: white;
-  padding: 5px 10px;
-  background-color: #ccc;
-  display: inline-block;
-  font-weight: 300;
-  border-left: 5px solid #147FC4; }
-
-.guide-message {
-  font-family: verdana, arial, serif;
-  font-size: 11px;
-  color: #bbb;
-  padding: 5px 10px 5px 20px;
-  border-bottom: 1px dashed #eee;
-  line-height: 1.2; }
-
-.guide-line {
-  border-bottom: 5px solid #147FC4;
-  display: inline-block;
-  margin-top: 3rem;
-  margin-bottom: 0.5rem; }
-
 /* BASE_230 | LAYOUT | 230_BASE | BODY - 2017-01-12 */
 body {
   font-family: "Roboto", arial, sans-serif;
@@ -1628,18 +1603,36 @@ body {
   line-height: 1.7; }
 
 /* SETUP | LAYOUT | 250_SETUPBASIC | STRUCTURE - 2018-08-07 */
-/* SETUP | LAYOUT | 250_SETUPBASIC | HEADER - 2018-08-07 */
+/* SETUP | LAYOUT | 250_SPKBASIC | HEADER - 2018-08-08 */
+.site-header {
+  background: #eee2db;
+  background: -moz-linear-gradient(45deg, #eee2db 0%, #e6d5c9 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #eee2db), color-stop(100%, #e6d5c9));
+  background: -webkit-linear-gradient(45deg, #eee2db 0%, #e6d5c9 100%);
+  background: -o-linear-gradient(45deg, #eee2db 0%, #e6d5c9 100%);
+  background: -ms-linear-gradient(45deg, #eee2db 0%, #e6d5c9 100%);
+  background: linear-gradient(45deg, #eee2db 0%, #e6d5c9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eee2db', endColorstr='#e6d5c9', GradientType=1 ); }
+
 @media only screen and (min-width: 75rem) {
   .site-header > .wrap {
     max-width: 72.5rem;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem; } }
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; } }
 
 @media only screen and (max-width: 75rem) {
   .site-header > .wrap {
-    padding: 1rem; } }
+    padding: 1rem 0.5rem; } }
+
+.header-widget-area {
+  display: inline-block; }
+
+.title-area {
+  display: inline-block;
+  margin-right: 2rem;
+  vertical-align: bottom; }
 
 .site-title {
   font-size: 2.5rem;
@@ -1647,12 +1640,24 @@ body {
   line-height: 1;
   margin-bottom: 0; }
 
+.site-title a {
+  background-image: url("http://smarterwebpackages.com/brand/smarterwebpackages-320x80.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 160px;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+  color: transparent; }
+
+.site-title a:hover {
+  color: transparent; }
+
 .site-description {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1;
-  margin-top: 0.5rem;
-  margin-bottom: 0; }
+  display: none; }
 
 /* SETUP | LAYOUT | 250_SETUPBASIC | INNER - 2018-08-07 */
 @media only screen and (min-width: 75rem) {
@@ -1745,6 +1750,45 @@ body {
   .footer-widgets-3 {
     width: 32%;
     float: left; } }
+
+/* BASE_230 | LAYOUT | 230_SPKBASIC | MENU - 2017-08-08 */
+.genesis-nav-menu {
+  list-style-type: none;
+  margin-left: 0; }
+
+.menu-primary {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 47.9375rem) {
+  .genesis-responsive-menu {
+    display: none;
+    position: relative; } }
+
+/* BASE_230 | LAYOUT | 230_SPKBASIC | MENUITEM - 2017-08-08 */
+.menu-item {
+  font-family: 'Lato',arial,serif; }
+
+.menu-item a {
+  color: #333; }
+
+.menu-item a:hover {
+  color: #666; }
+
+@media only screen and (max-width: 47.9375rem) {
+  .genesis-responsive-menu .genesis-nav-menu .menu-item {
+    display: block;
+    float: none;
+    position: relative;
+    text-align: left; } }
+
+.menu-primary .menu-item {
+  text-transform: uppercase; }
+
+.menu-primary > .menu-item {
+  margin-right: 2rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 1px; }
 
 /* BASE_230 | LAYOUT | 230_MODEL-BASICSETUP | WIDGET - 2017-02-13 */
 .widget {
@@ -1941,19 +1985,6 @@ body.midwidth-center .content-sidebar-wrap {
   float: none;
   margin-right: auto;
   margin-left: auto; }
-
-/* BASE_230 | LAYOUT | 250_GUIDE | HEADER - 2017-06-06 */
-.site-header {
-  background-color: #5d8aa8; }
-
-.site-header > .wrap {
-  background-color: #aac1d1; }
-
-.header-widget-area {
-  background-color: #d0dde6; }
-
-.title-area {
-  background-color: #c3d4df; }
 
 /* BASE_230 | LAYOUT | 250_GUIDE | INNER - 2017-06-06 */
 .site-inner {
