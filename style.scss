@@ -1,4 +1,4 @@
-/* MODEL | SPK-BASIC | STYLE - 2017-08-08 3:51pm */
+/* MODEL | SPK-BASIC | STYLE - 2017-08-09 7:16am */
 
 // requires CodeKit
 // requires Framework "base-theme"
@@ -192,7 +192,7 @@
 			//@import 	"layout/250_setupbasic/header-override";
 			@import 	"layout/250_setupbasic/inner";
 			//@import 	"layout/250_setupbasic/inner-override";
-			@import 	"layout/250_setupbasic/footer";
+						@import 	"layout/250_spkbasic/footer";
 			//@import 	"layout/250_setupbasic/footer-override";
 
 			// MENU
@@ -208,7 +208,7 @@
 
 @import 	"layout/230_base/image";
 
-@import 	"layout/230_base/credit";
+			@import 	"layout/250_setupbasic/credit";
 @import 	"layout/230_base/accessibility";
 
 //@import 	"layout/230_base/outside";
@@ -228,7 +228,7 @@
 			// GUIDE
 			//@import 	"layout/250_guide/header";
 			@import 	"layout/250_guide/inner";
-			@import 	"layout/250_guide/footer";
+			//@import 	"layout/250_guide/footer";
 
 // -------------------------------------------------------------------- COMMENT | 2017-04-19
 			@import 	"comment/230_model-basicsetup/entrycomments";
