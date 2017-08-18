@@ -113,7 +113,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 add_image_size( 'featured-image', 720, 405, TRUE );
 
 // Rename primary and secondary navigation menus.
-add_theme_support( 'genesis-menus', array( 'primary' => __( 'Top Menu', 'setupbasic' ), 'secondary' => __( 'Header Menu', 'setupbasic' ) ) );
+add_theme_support( 'genesis-menus', array( 'primary' => __( 'Header Menu', 'setupbasic' ), 'secondary' => __( 'Top Menu', 'setupbasic' ) ) );
 
 // Reposition the primary navigation menu.
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
